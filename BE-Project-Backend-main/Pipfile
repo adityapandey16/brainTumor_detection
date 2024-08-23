@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==2.2.6"
+djangorestframework = "*"
+django-cors-headers = "*"
+pillow = "*"
+numpy = "*"
+tensorflow-cpu = "*"
+gunicorn = "==19.9.0"
+django-storages = {extras = ["azure"], version = "*"}
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
